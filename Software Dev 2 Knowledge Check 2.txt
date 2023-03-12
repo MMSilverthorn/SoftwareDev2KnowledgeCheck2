@@ -1,0 +1,23 @@
+Software Dev 2 Knowledge Check 2
+Mary Silverthorn \
+msilverthorn@gmail.com
+
+
+
+
+
+SELECT Customers.CustomerName FROM Orders
+JOIN Customers
+ON Customers.CustomerID = Orders.CustomerID 
+WHERE OrderID = 10310;
+
+answer The Big Cheeese
+
+SELECT Suppliers.Address FROM Products
+JOIN Suppliers
+ON Suppliers.SupplierID = Products.SupplierID
+WHERE ProductID = 40;
+
+answer Order Processing Dept. 2100 Paul Revere Blvd
+
+
